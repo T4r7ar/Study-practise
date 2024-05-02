@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Montserrat', sans-serif;
+          background: #050607;
+          color: #fff;
+          z-index: 0;
+}
+
+.container {
+          margin: 0 110px;
+}
+
+/*        Header         */
+
+header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          background: #0A0C1040;
+          margin: 0 96px;
+          height: 96px;
+}
+header ul {
+          display: flex;
+          align-items: center;
+          gap: 52px;
+          list-style: none;
+}
+header li {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 19.5px;
+          cursor: pointer;
+}
+
+/*         Main          */
+
+
+.main--content {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-top: 45px;
+}
+
+.main--text {
+          width: 550px;
+}
+.main--text h2 {
+          font-family: "Cinzel", serif;
+          font-size: 64px;
+          font-weight: 500;
+          line-height: 76.8px;
+          letter-spacing: -0.01em;
+          text-align: center;
+          background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+}
+.main--text h1 {
+          font-family: "Cinzel", serif;
+          font-size: 74px;
+          font-weight: 800;
+          letter-spacing: 0.44em;
+          text-align: center;
+          background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+}
+.main--text p {
+          margin: 37px 0;
+          font-weight: 300;
+          font-size: 22px;
+          line-height: 50px;
+          text-align: justify;
+          text-transform: capitalize;
+}
+
+/*              Recent                */
+
+.recent--content {
+          margin: 105px 0 80px;
+}
+
+.title {
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          margin-bottom: 35px;
+          gap: 27.5px;
+}
+
+.title h2 {
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 50px;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+
+          background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+}
+
+.title a {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 50px;
+          letter-spacing: 0.03em;
+          text-transform: uppercase;
+          text-decoration: none;
+}
+
+.stick {
+          content: "";
+          display: inline-block;
+          width: 2px;
+          height: 42px;
+          background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+}
+.recent--images {
+          display: flex;
+          justify-content: space-between;
+}
+
+.contribution--title {
+          justify-content: start;
+}
+
+.contribution--pack {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #07090C;
+}
+
+.contribution--pack img {
+          background-color: #07090C;
+}
+.pack--text {
+          background-color: #07090C;
+}
+
+.pack--text h2 {
+          font-size: 42px;
+          font-weight: 700;
+          line-height: 50px;
+          letter-spacing: 0.035em;
+          text-align: center;
+          text-transform: uppercase;
+
+          background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+}
+.pack--text p {
+          font-size: 32px;
+          font-weight: 400;
+          line-height: 50px;
+          letter-spacing: 0.285em;
+          text-align: center;
+          text-transform: uppercase;
+          background: none;
+
+          margin: 25px 0;
+}
+
+.pack--btn {
+          background-color: #07090C;
+          display: flex;
+          justify-content: center;
+}
+
+.sec--cont {
+          margin-top: 56px;
+}
+
+footer {
+          margin: 165px 0 120px;
+}
+
+.footer--title {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 50px;
+          letter-spacing: 0.03em;
+          text-align: center;
+          text-transform: uppercase;
+}
+
+.footer--links {
+          display: flex;
+          justify-content: center;
+          gap: 32px;
+          margin-top: 24px;
+}
+
+.footer--links img {
+          cursor: pointer;
+}

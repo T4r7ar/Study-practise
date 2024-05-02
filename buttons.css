@@ -1,0 +1,38 @@
+.first--btn {
+          width: 180px;
+          height: 54px;
+          margin-right: 54px;
+          border: 2px solid;
+          border-image: linear-gradient(to right, #FFE195, rgba(242, 187, 90, 0.876812), rgba(191, 122, 0, 0.75)) 1;
+          cursor: pointer;
+
+          font-size: 18px;
+          font-weight: 500;
+          letter-spacing: 0.15em;
+          text-align: center;
+          text-transform: uppercase;
+          background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+}
+
+.sec--btn {
+          width: 170px;
+          height: 56px;
+          border: none;
+          border-radius: 5px;
+          background: linear-gradient(295.38deg, #FFE5A2 4.89%, #BF841A 50.44%, #FFCD74 95.06%);
+          cursor: pointer;
+
+          font-size: 18px;
+          font-weight: 500;
+          letter-spacing: -0.02em;
+          color: #0A0D11;
+          text-align: center;
+          text-transform: uppercase;
+}
+
+.sec--btn img {
+          margin-right: 10px;
+          background: none;
+}
